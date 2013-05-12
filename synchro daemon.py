@@ -525,7 +525,7 @@ def main():
     while do_exit == False:
         try:
             time.sleep(0.1)
-        except KeyboardInterrupt:
+        except:
             do_exit = True
 
     for w in watchers:
